@@ -49,9 +49,9 @@
 
     <main>
         <!-- Plants section starts  -->
-         <section class="w-full sm:max-w-[1140px] mx-auto mt-20 px-4 sm:px-0 hidden">
+         <section class="w-full sm:max-w-[1140px] mx-auto mt-20 px-4 sm:px-0">
             <h2 class="text-3xl sm:text-5xl font-bold font-serif mt-2 sm:mt-4 text-center"><span class="text-[#E95A08]">Our</span> Plants </h2>
-            <h4 class="font-[Inter] text-black text-center w-10/12 mx-auto text-2xl opacity-50 mt-4 sm:mt-2 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</h4>
+            <h4 class="font-[Inter] text-black text-center w-full sm:w-10/12 mx-auto text-2xl opacity-50 mt-4 sm:mt-2 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</h4>
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-20">
                 <div>
                    <figure class="flex justify-center">
@@ -163,7 +163,7 @@
          <!-- Latest Deal section start  -->
           <section class="w-full sm:max-w-[1140px] mx-auto mt-40 px-4 sm:px-0">
             
-              <h2 class="text-3xl sm:text-5xl font-bold font-serif mt-2 sm:mt-4 text-center"><span class="text-[#E95A08]">Latest</span> D eals</h2>
+              <h2 class="text-3xl sm:text-5xl font-bold font-serif mt-2 sm:mt-4 text-center"><span class="text-[#E95A08]">Latest</span> Deals</h2>
               <h4 class="font-[Inter] text-black text-center w-full sm:w-10/12 mx-auto text-2xl opacity-50 mt-4 sm:mt-2 ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</h4>
 
               <div class="flex flex-col sm:flex-row gap-4 mt-20 w-[calc(100% - 32px)]">
@@ -189,18 +189,53 @@
           <!-- Join section starts  -->
            <section>
               <div class="bg-[url(./assets/news-letter-bg.png)] bg-no-repeat bg-cover text-center h-[400px] flex flex-col justify-center gap-4 mt-20">
-                  <h3 class="text-5xl text-white font-bold font-serif">Join the colorful Bunch</h3>
+                  <h3 class="text-3xl sm:text-5xl text-white font-bold font-serif">Join the colorful Bunch</h3>
                   <div class="flex justify-center items-center">
-                    <input class="bg-white px-4 py-2 w-3/6/" type="email" name="" id="" placeholder="Write email"> 
-                    <button  class="bg-[#E95A08] py-2 px-4"><a class="font-base font-semibold text-white" href="">Subscribe</a></button>
+                    <input class="bg-white px-4 py-2 w-3/6" type="email" name="" id="" placeholder="Write email"> 
+                    <button  class="bg-[#E95A08] py-2 px-8"><a class="font-base font-semibold text-white" href="">Subscribe</a></button>
                   </div>
               </div>
            </section>
 
+
     </main>
     
-    <footer>
-        Footer...
+    <footer class="mt-20 mb-30">
+          <div class="flex flex-col sm:flex-row justify-between gap-y-4 px-4">
+            <div class="flex flex-col w-full sm:w-1/4 gap-2">
+                <div>
+                  <img src="./assets/logo.png" alt="">
+                </div>
+                <p class="font-[Inter] text-black text-xl opacity-50 mt-4 sm:mt-2">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            </div>
+            
+            <div>
+              <ul class="font-[Inter] text-black opacity-50 flex flex-col gap-4">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            </div>
+
+            <div>
+              <ul class="font-[Inter] text-black opacity-50 flex flex-col gap-4">
+              <li><a href="">Features</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms of Service</a></li>
+              <li><a href="">Help Center</a></li>
+            </ul>
+            </div>
+            
+            <div class="flex gap-6 text-3xl">
+                <a href=""><i class="fa-brands fa-square-linkedin text-blue-800"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-facebook text-blue-800"></i></i></a>
+                <a href=""><i class="fa-brands fa-youtube text-red-600"></i></i></a>
+            </div>
+          </div>
     </footer>
     
 </body>
